@@ -1,0 +1,129 @@
+.toolbar{
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    background-color: rgb(2, 65, 202);;
+    height: 56px;
+    color: whitesmoke;
+    top: 0;
+    left: 0%;
+    border-radius: 1%;
+}
+.toolbar .stu-Logo{
+    width: 80%;
+    height: 8%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: whitesmoke;
+    border : 0px 1px 0px 0px solid white;
+}
+.title{
+    flex: 1.2;
+}
+.title h3{
+    text-align: center;
+}
+.toggle-button{
+    background-color: transparent;
+    border: 0;
+    width: 0;
+    margin-right: 0rem;
+}
+.toggle-button:focus{
+    outline: 0;
+}
+.toggle-button .bars{
+    height: 2rem;
+    width: 2rem;
+}
+.toolbar__logo a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.toolbar__navigation{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.toolbar__navigation-items{
+    flex:0.2;
+}
+.toolbar__navigation-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.toolbar__navigation-items li{
+    padding: .5rem;
+}
+.toolbar__navigation-items a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+.toolbar__navigation-items a:hover,
+.toolbar__navigation-items a:active{
+    color: whitesmoke;
+    border-bottom: 0.3rem solid white;
+}
+@media(max-width:1366px){
+    .toolbar__logo{
+        display: none;
+    }
+    .student-logo{
+        display: none;
+    }
+    .toggle-button{
+        display: none;
+    }
+    .toolbar img{
+        display: none;
+    }
+    .title{
+        margin-left: 1.2rem;
+        font-size: 2rem;
+    }
+    .dropdown{
+        position: fixed;
+        color: white;
+    }
+    .hide{
+        display: none;
+    }
+    .toolbar__navigation-items{
+        font-size: 1.2rem;
+    }
+    .toolbar{
+        width: 100%;
+        left: 0;
+    }
+}
+@media(max-width:465px){
+  
+    .title{
+        font-size: 0.6rem;
+    }
+    .toolbar__navigation-items{
+        font-size: 1rem;
+        flex:0.5;
+    }
+    .stu-Logo{
+        display: none;
+    }
+}
+@media(min-width:1366px){
+    .toolbar__toggle-button{
+        display: none;
+    }
+}

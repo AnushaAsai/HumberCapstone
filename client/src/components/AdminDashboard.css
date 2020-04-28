@@ -1,0 +1,30 @@
+.admin-main{
+  margin-top: 60px;
+  margin-left: 20%;
+  width: 78%;
+  padding: 1%;
+}
+form{
+  margin-top: 0%;
+}
+.App{
+  height: 100%;
+}
+@media(max-width:768px){
+  .admin-main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .stu-hide{
+    display: none;
+  }
+}
+@media(max-width:465px){
+  .admin-main{
+    margin-left: 0;
+  }
+}
+TabContainer{
+  margin: 1rem;
+}

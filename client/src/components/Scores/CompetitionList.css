@@ -1,0 +1,27 @@
+.addcompetition{
+    margin: 2rem;
+    margin-left: 80%;
+}
+.competition-details-description{
+    text-align: left;
+    font-weight: bold;
+}
+.btn-cd-edit{
+    justify-self: left;
+    width: 10%;
+}
+.btn-cd-delete{
+    margin-left: 60%;
+    justify-self: right;
+    width: 10%;
+}
+@media(max-width:760px){
+    .btn-cd-edit{
+        margin-left: 10%;
+        width: 30%;
+    }
+    .btn-cd-delete{
+        margin-left: 20%;
+        width: 30%;
+    }   
+}

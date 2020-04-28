@@ -1,0 +1,35 @@
+.btn-addjudge{
+    margin-top: 2rem;
+}
+.addjudge-form{
+    width: 80vw;
+    margin-left: 20vw;
+}
+.addjudge-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.addjudge-container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.addjudge-container:focus{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.row{
+    margin-bottom: 1rem;
+}
+
+.btn-judge{
+    margin: 5%;
+}
+@media(max-width:468px){
+    .addjudge-container{
+        width: 100vw;
+    }
+    .addjudge-form{
+        width: 50vw;
+        margin-left: 0vw;
+    }
+}

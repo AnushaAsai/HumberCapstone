@@ -1,0 +1,81 @@
+.Logo{
+    width: 60%;
+    height: 70%;
+    margin-top: 5%;
+}
+.container-fluid-login{
+    width: 40%;
+    height: 100%;
+    margin-left: 60%;
+    background-color: whitesmoke;
+    justify-content: end;
+}
+.container-login{
+    justify-content: end;
+    height: 100%;
+    background-color: black;
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    background-image: url('./login-back1.jpg');
+    background-size: cover;
+}
+.fp{
+    color: blue;
+    margin-left: 0%;
+}
+.fp:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.fp1{
+    color: blue;
+}
+.regsiteration-div{
+    margin-top: 10%;
+}
+.fp1:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.register-logo{
+width: 100%;
+}
+.register-div{
+    margin-top: 5%;
+}
+.form{
+    width: 100%;
+}
+.lg-col-12-login{
+    width: 60%;
+}
+.lg-col-6-login{
+    margin-top: 0%;
+    width: 100%;
+}
+.register-main-div{
+background-image: url('./registration.jpeg');
+background-size: cover;
+margin-top: 0;
+}
+h2,h5{
+    text-align: center;
+}
+.btn-login{
+    margin-top: 5%;
+    width: 25%;
+}
+@media(max-width:768px){
+    .container-fluid-login{
+        width: 100%;
+        margin-left: 0;
+    }
+    .btn-login{
+        width: 35%;
+    }
+}
+.form{
+    margin-top: 5%;
+}

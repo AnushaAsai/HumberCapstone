@@ -1,0 +1,46 @@
+.addcompetition-form{
+    margin-left: 25%;
+    z-index: -200;
+}
+.addcompinput{
+    width: 50%;
+}
+.competition-input{
+    margin: 1rem;
+}
+textarea{
+    resize: none;
+}
+.btn-submit-admin{
+    margin-top: 5%;
+    margin-left: 80%;
+    width: 15%;
+}
+.btn-add{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+}
+@media(max-width:1024px){
+    .addcompetition-form{
+        margin-left: 20%;
+    }
+    .btn-submit-admin{
+        margin-left: 30%;
+        margin-right: auto;
+    }
+  }
+  @media(max-width:465px){
+    .addcompetition-form{
+        margin-left: 0%;
+    }
+    .btn-submit-admin{
+        margin-left: 0%;
+        margin-bottom: 10%;
+        margin-right: auto;
+        width: 30%;
+    }
+    .addcompinput{
+        width: 100%;
+    }
+  }

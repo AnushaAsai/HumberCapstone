@@ -1,0 +1,4 @@
+{
+    "humberDBConnectURI": "mongodb+srv://admin:admin1234@cluster0-h5dbw.mongodb.net/Humbercfeevents?retryWrites=true&w=majority",
+    "jwtsecret" : "secret"
+}

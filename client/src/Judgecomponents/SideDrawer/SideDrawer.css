@@ -1,0 +1,76 @@
+.side-drawer-judge{
+    height: 100%;
+    background-color:rgb(4, 124, 0);
+    box-shadow:2px 0 5px whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    max-width: 300px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+.side-drawer-judge.open{
+    transform: translateX(0%);
+}
+
+.side-drawer-judge img{
+    width: 80%;
+    height: 8%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.side-drawer-judge ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+}
+.side-drawer-judge li{
+    padding: 1rem;
+}
+.side-drawer-judge a{
+    color: whitesmoke;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 0;
+}
+.side-drawer-judge a:hover{
+    text-decoration: none;
+}
+.side-drawer-judge li:hover{
+    background-color: rgb(4, 124, 0);
+    color: rgb(4, 124, 0);
+}
+.side-drawer-judge li:hover{
+    background-color: whitesmoke;
+}
+.side-drawer-judge li:active{
+    background-color: whitesmoke;
+}
+.side-drawer-judge .logo{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:1366px){
+    .side-drawer-judge{
+        width: 60%;
+    }
+    .side-drawer-judge img{
+        height: 90%;
+    }
+    .side-drawer-judge .logo{
+        height: 5%;
+    }
+    
+}
+@media(min-width:1366px){
+    .side-drawer-judge{
+        transform: translateX(0%);
+    }
+
+}
